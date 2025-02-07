@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    /*background-color: #cebebe;*/
+    background-image: url('../images/caurosal_1.jpg');
+    background-size: cover;
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fbd1a2;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1,
+h2 {
+    color: #007bff;
+}
+.header {
+    text-align: center;
+}
+.header h1 {
+    margin: 10px 0;
+}
+.contact {
+    margin: 10px 0;
+    font-size: 14px;
+}
+.contact a {
+    color: #007bff;
+    text-decoration: none;
+}
+.section {
+    margin: 20px 0;
+}
+.section h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+.item {
+    margin-bottom: 15px;
+}
+.item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+}
+.item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+.skills ul li {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px 5px 5px 0;
+    border-radius: 4px;
+}
+/* Modified code */
+.contact i {
+    color: #007bff;
+    font-size: 14px;    
+}
+
+.item ul{
+    margin-top: 0; /* Removes extra space above the list */  
+}
+.item ul li {
+    list-style-type: square; /* Ensures bullet points appear */
+}
+
+.p-row {
+    display: flex;
+    align-items: flex-start;/* Align text properly */
+  }
+  
+.label {
+    display: inline-block;
+    width: 150px; /* Set a fixed width to align colons */
+    font-weight: bold;
+    text-align: left;
+    flex-shrink: 0; /* Prevents label from shrinking */
+}
+.content {
+    flex: 1; /* Allows content to take remaining space */
+ }
+ .small-image {
+    width: 100px; /* Adjust the width as needed */
+    height: auto; /* Keeps the aspect ratio intact */
+  } 
+
+
