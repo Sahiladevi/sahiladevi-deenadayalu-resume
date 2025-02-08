@@ -69,10 +69,6 @@ h2 {
     border-radius: 4px;
 }
 /* Modified code */
-.contact i {
-    color: #007bff;
-    font-size: 14px;    
-}
 
 .item ul{
     margin-top: 0; /* Removes extra space above the list */  
@@ -100,5 +96,61 @@ h2 {
     width: 100px; /* Adjust the width as needed */
     height: auto; /* Keeps the aspect ratio intact */
   } 
+  /* which applies styles only when the viewport (browser window width) is 768 pixels or wider.*/
+@media (min-width: 768px) {
+    .phone-link { 
+        pointer-events: none; /*prevents the user from clicking or tapping the link.*/
+        color: black !important; /*a { color: blue; } or .phone-link { color: inherit; }) might be overriding your styles. Try using !important to force the color change*/      
+    }
+  }
+ .skills-image {
+    height: 1em; /* Matches text height */
+    width: auto; /* Keeps aspect ratio */
+    vertical-align: middle; /* Aligns image with text */
+    margin-right: 5px; /* Adds spacing between image and text */
+}
+li i {
+    margin-right: 8px; /* Adds spacing between icon and text */
+    font-size: 24px; /* Adjusts icon size */
+}
+
+.fa-html5 {
+    color: #E34F26; /* HTML5 orange */
+}
+
+.fa-css3-alt {
+    color: #1572B6; /* CSS3 blue */
+    transition: all 0.3s ease; /* Smooth transition for the effect */
+}
+.fa-css3-alt:hover {
+    color: #FFFFFF; /* Changes the color to white on hover */
+    text-shadow: 0 0 10px rgba(0,0,0,0.5); /* Adds a glowing effect */
+}
+
+.fa-js {
+    color: #F7DF1E; /* JavaScript yellow */
+}
+
+.fa-python {
+    color: #3776AB; /* Python blue */
+    transition: all 1s ease; /* Smooth transition for the effect */
+}
+.fa-python:hover {
+    color: #FFD43B; /* Changes the color to yellow on hover */
+    text-shadow: 0 0 10px rgba(0,0,0,0.5); /* Adds a glowing effect */
+}
+
+fa-java {
+    color: #007396; /* Java logo blue */
+    transition: all 1s ease; /* Increased transition duration to 1 second */
+}
+
+.fa-java:hover {
+    color: #FF0000; /* Changes the color to red on hover */
+    text-shadow: 0 0 10px rgba(0,0,0,0.5); /* Adds a glowing effect */
+}
+.fa-github {
+    color: #181717; /* GitHub black */
+}
 
 
