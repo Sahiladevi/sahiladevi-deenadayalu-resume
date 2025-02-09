@@ -5,6 +5,7 @@ body {
     padding: 0;
     color: #333;
     /*background-color: #cebebe;*/
+    /*Modified code*/    
     background-image: url('../images/caurosal_1.jpg');
     background-size: cover;
     background-position: center; /* Center the background */
@@ -14,7 +15,7 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: #fbd1a2;
+    background: #fbd1a2;/* modified the color*/
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
